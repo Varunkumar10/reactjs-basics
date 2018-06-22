@@ -1,0 +1,30 @@
+.awesome {
+	color: red;
+}
+.second-page {
+	background-color: #F00;
+	color: #000;
+}
+.column {
+	float: left;
+	width: 50%;
+	font-size: 20px;
+	text-align: justify;
+	padding: 10px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.foot {
+	background-color: cadetblue;
+	height: 40px;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	 left: 0;
+}
+*{
+	box-sizing: border-box;
+}
